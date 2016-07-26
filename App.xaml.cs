@@ -1,17 +1,22 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Data;
-using System.Linq;
-using System.Threading.Tasks;
-using System.Windows;
+﻿using System.Threading.Tasks;
+using Squirrel;
 
 namespace SquirrelTest
 {
     /// <summary>
     /// App.xaml の相互作用ロジック
     /// </summary>
-    public partial class App : Application
+    public partial class App
     {
+        public App()
+        {
+            Task.Run(async () =>
+            {
+                using (var manager = new UpdateManager("https://github.com/YoshihiroIto/SquirrelTest"))
+                {
+                    await manager.UpdateApp();
+                }
+            });
+        }
     }
 }
