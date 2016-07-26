@@ -1,0 +1,16 @@
+﻿<Window x:Class="SquirrelTest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        Title="MainWindow"
+        Width="525"
+        Height="350"
+        mc:Ignorable="d">
+    <StackPanel>
+        <TextBlock Text="Exeの場所:" />
+        <TextBlock x:Name="ExeTextBox" />
+        <TextBlock Margin="0,32,0,0" Text="バージョン番号:" />
+        <TextBlock x:Name="VersionTextBox" />
+    </StackPanel>
+</Window>
