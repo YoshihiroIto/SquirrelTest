@@ -12,9 +12,9 @@ namespace SquirrelTest
         {
             Task.Run(async () =>
             {
-                using (var manager = new UpdateManager("https://github.com/YoshihiroIto/SquirrelTest"))
+                using (var mgr = UpdateManager.GitHubUpdateManager("https://github.com/YoshihiroIto/SquirrelTest"))
                 {
-                    await manager.UpdateApp();
+                    await mgr.Result.UpdateApp();
                 }
             });
         }
