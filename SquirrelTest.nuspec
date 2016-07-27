@@ -22,6 +22,5 @@
         <file src="bin\Release\Squirrel.dll" target="lib\net461\Squirrel.dll"/>
         <file src="bin\Release\SquirrelTest.exe" target="lib\net461\SquirrelTest.exe"/>
         <file src="bin\Release\SquirrelTest.exe.config" target="lib\net461\SquirrelTest.exe.config"/>
-        <file src="bin\Release\SquirrelTest.vshost.exe.config" target="lib\net461\SquirrelTest.vshost.exe.config"/>
     </files>
 </package>
