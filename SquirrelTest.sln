@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SquirrelTest", "SquirrelTest.csproj", "{E837A843-2957-4AFF-9E35-8A65323A3DC0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SquirrelTest", "Sub\SquirrelTest.csproj", "{E837A843-2957-4AFF-9E35-8A65323A3DC0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
