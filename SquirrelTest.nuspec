@@ -1,13 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
-        <id>SquirrelTest</id>
-        <description>Test</description>
-
-        <!-- <version>$version$</version> -->
-        <!-- <title>$title$</title> -->
-        <!-- <authors>$author$</authors> -->
-        <!-- <owners>$author$</owners> -->
+        <id>$id$</id>
+        <version>$version$</version>
+        <title>$title$</title>
+        <authors>$author$</authors>
+        <owners>$author$</owners>
+        <description>$description$</description>
     </metadata>
     <files>
         <file src="bin\Release\DeltaCompressionDotNet.dll" target="lib\net461\DeltaCompressionDotNet.dll"/>
